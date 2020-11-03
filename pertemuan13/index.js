@@ -7,7 +7,7 @@
 //     return total;
 // }
 
-//REST OPERATOR
+// // REST OPERATOR
 
 // const hitung = (...angka) => {
 //     console.log(angka);
@@ -19,12 +19,12 @@
 // }
 // console.log(hitung(1,2,3,4,5,6,7,8,10))
 
-//Spread Operator
-const angka = [1,2,3,4,5];
-// const angka2 =angka;
-const angka2 = [...angka];
-angka[0] = 10;
-console.log (angka2);
+// //Spread Operator
+// const angka = [1,2,3,4,5];
+// // const angka2 =angka;
+// const angka2 = [...angka];
+// angka[0] = 10;
+// console.log (angka2);
 
 // console.log(angka);
 // console.log(...angka);
@@ -38,8 +38,8 @@ console.log (angka2);
 // const gabung6 = [...angka1...angka2,11,..angka3]
 // console.log(gabung6);
 
-const obj1 = {a: 1, b: 2};
-const obj2 = {c: 3, d: 4};
-const objectGabungan = {...obj1, ...obj2};
+// const obj1 = {a: 1, b: 2};
+// const obj2 = {c: 3, d: 4};
+// const objectGabungan = {...obj1, ...obj2};
 
-console.log(objectGabungan);
+// console.log(objectGabungan);
